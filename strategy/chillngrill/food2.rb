@@ -22,7 +22,7 @@ class VeggiePatty < Food
   end
 end
 
-# CUSTOMPATTY = lambda { |type| "#{type}" }
+CUSTOMPATTY = lambda { |type| "#{type}" }
 
 class Grill
   attr_accessor :food
